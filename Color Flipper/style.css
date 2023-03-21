@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+}
+body{
+    margin: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+}
+.colorName{
+    border: 3px solid black;
+}
+.changeColor{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: 20px 20px 20px 20px;
+    border: 1px solid black;
+    background: none;
+    cursor: crosshair;
+}
